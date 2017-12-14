@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    /* 每一列的列宽 */
+    -webkit-column-width: 202px;
+    -moz-column-width: 202px;
+    -moz-column-width: 202px;
+    -ms-column-width: 202px;
+    /* 设置列数 */
+    /* -webkit-column-count: 4;
+    -moz-column-count: 4;
+    -moz-column-count: 4;
+    -ms-column-count: 4; */
+}
+
+.box {
+    padding: 10px 0 0 15px;
+}
+
+.pic {
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px #ccc;
+    border-radius: 5px;
+    width: 165px;
+}
+
+.pic img {
+    width: 165px;
+    height: auto;
+    display: block;
+}
